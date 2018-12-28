@@ -1,8 +1,8 @@
 name: flutter_localized_string
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: Piotr Moskala <moskala.p@gmail.com>
+homepage: https://github.com/pixoo/flutter_localized_string.git
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
