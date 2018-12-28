@@ -50,7 +50,7 @@ When you're all set with pubspec file, you must put this in to your `main.dart`:
 
 LocalizedWidget is responsible for wrapping up the class with FutureBuilder and enables plugin to load json file while loading widget tree.
 
-#Library usage 
+## Library usage 
 
 Once you did all of these steps. You should be able to use library as follows: 
 ```dart
