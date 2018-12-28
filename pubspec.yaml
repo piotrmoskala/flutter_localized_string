@@ -1,6 +1,6 @@
 name: flutter_localized_string
 description: NSLocalizedString inspired library for loading strings from json files.
-version: 0.0.1
+version: 0.0.2
 author: Piotr Moskala <moskala.p@gmail.com>
 homepage: https://github.com/pixoo/flutter_localized_string
 

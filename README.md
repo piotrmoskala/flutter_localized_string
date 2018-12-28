@@ -41,14 +41,22 @@ When you're all set with pubspec file, you must put this in to your `main.dart`:
       title: "title",
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),      home: LocalizedWidget(widget: MyHomePage(title: "main_page_title")),
+      ),      home: LocalizedWidget(widget: MyHomePage()),
     );
   }
-}
 
 ```
 
-LocalizedWidget is responsible for wrapping up the class with FutureBuilder and enables plugin to load json file while loading widget tree.
+`LocalizedWidget` is very important in here and it is responsible for wrapping up the class with FutureBuilder and enables plugin to load json file while loading first widget tree. You need to put it into the widget tree only once at the app startup , it can be also done in some kind of Splashscreen widget or something. We just need time to load content.  :) 
+
+## Useful imports 
+
+```dart
+
+import 'package:flutter_localized_string/localized_widget.dart';
+import 'package:flutter_localized_string/flutter_localized_string.dart';
+
+```
 
 ## Library usage 
 
